@@ -93,13 +93,18 @@ button.navbar-toggler.navbar-toggler-right.menu-button {
 	
 	ol.carousel-indicators li img {
     display: none;
-}
+	}
 
-ol.carousel-indicators {
-    position: relative;
-    top: -100px;
-    margin: 0 2em;
-    flex-wrap: wrap;
+	ol.carousel-indicators {
+		position: relative;
+		top: -100px;
+		margin: 0 2em;
+		flex-wrap: wrap;
+	}
+
+	.services-slide-grid {
+		grid-template-columns: 1fr;
+
 }
 
 
