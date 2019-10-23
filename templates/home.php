@@ -189,32 +189,13 @@ b c';
 		<div class="home-paragraph">
 		<div>
 		<p>
-		IBERBRAND ® is a specialized in-<br/>
-		tellectual property firm that com-<br/>
-		bines a remarkable background<br/>
-		and experience with a fresh ap-<br/>
-		proach to the IP law practice in<br/>
-		Mexico and Latin America, dealing<br/>
-		with both Industrial and Intellectu-<br/>
-		al property matters.<br/>
+		IBERBRAND ® is a specialized in tellectual property firm that combines a remarkable background and experience with a fresh approach to the IP law practice in Mexico and Latin America, dealing with both Industrial and Intellectu al property matters.<br/>
 		</p>
 		<p>
-		Based in Mexico City, we provide <br/>
-		strategic advice for protecting,</p>
-		</div>
-		<div>		
-		maintaining and enforcing your IP<br/>
-		Rights in Mexico, Latin America<br/>
-		and the Caribbean.<br/>
+		Based in Mexico City, we provide strategic advice for protecting, maintaining and enforcing your IP Rights in Mexico, Latin America and the Caribbean.
 		</p>
 		<p>
-		We are specialists in advising how<br/>
-		to register a trademark. Our expe-<br/>
-		rience will help you to successfully<br/>
-		register your trademark, obtain<br/>
-		your patent or copyright in Mexico,<br/>
-		Latin America and the Caribbean<br/>
-		as well.<br/>
+		We are specialists in advising how to register a trademark. Our experience will help you to successfully register your trademark, obtain	your patent or copyright in Mexico, Latin America and the Caribbean as well.<br/>
 		</p>
 </div>
 		</div>
