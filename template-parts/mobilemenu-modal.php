@@ -23,11 +23,7 @@
 						?>
 					</div>  <!-- navbar -->
 				</div> <!-- modal body -->
-<<<<<<< HEAD
 				<img class="barquito_modal" src="<?php echo get_template_directory_uri(); ?>/img/barquito.svg" alt="barquito IBERBRAND"/>
-=======
-				<img class="barquito_modal" src="<?php echo get_template_directory_uri(); ?>/img/barquito.svg" alt="barquito IBERBRAND"/>
->>>>>>> 4bbbbd137f4d129d8f7c470258806c1afb83998d
 				<div class="modal-footer">
 					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
 				</div> <!-- modal footer -->
