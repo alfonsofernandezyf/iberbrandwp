@@ -1,7 +1,7 @@
 <style>
 
 #content {
-    background: url(/wp-content/themes/iberbrandwp/img/Fondo_Papeles.png);
+    background: url(<?php echo get_template_directory_uri(); ?>/img/Fondo_Papeles.png);
     min-height: 100vh;
     background-size: cover;
 }
