@@ -44,10 +44,10 @@ $custom_logo_url = wp_get_attachment_image_url( $custom_logo_id , 'full' );
 					
 					<div class="chat-menu "> <!-- LOGO DIV -->
 						<a class="chat-icon" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-								<img src='/wp-content/themes/iberbrandwp/img/chat.svg'/>
+								<img src='<?php echo get_template_directory_uri(); ?>/img/chat.svg'/>
 						</a>
 						<a class="chat-icon" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-							<img src='/wp-content/themes/iberbrandwp/img/corazón.svg'/>
+							<img src='<?php echo get_template_directory_uri(); ?>/img/corazón.svg'/>
 						</a>
 					</div> <!-- END LOGO DIV -->
 
@@ -58,22 +58,22 @@ $custom_logo_url = wp_get_attachment_image_url( $custom_logo_id , 'full' );
 						<ul>
 							<li>
 								<a class="social-icon" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-									<img src='/wp-content/themes/iberbrandwp/img/facebook.svg'/>
+									<img src='<?php echo get_template_directory_uri(); ?>/img/facebook.svg'/>
 								</a>
 							</li>
 							<li>
 								<a class="social-icon" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-									<img src='/wp-content/themes/iberbrandwp/img/linkedin.svg'/>
+									<img src='<?php echo get_template_directory_uri(); ?>/img/linkedin.svg'/>
 								</a>
 							</li>
 							<li>
 								<a class="social-icon" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-									<img src='/wp-content/themes/iberbrandwp/img/twitter.svg'/>
+									<img src='<?php echo get_template_directory_uri(); ?>/img/twitter.svg'/>
 								</a>
 							</li>
 							<li>
 								<a class="social-icon" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-									<img src='/wp-content/themes/iberbrandwp/img/instagram.svg'/>
+									<img src='<?php echo get_template_directory_uri(); ?>/img/instagram.svg'/>
 								</a>
 							</li>
 						</ul>
