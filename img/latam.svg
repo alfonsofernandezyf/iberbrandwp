@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="66.128281"
+   height="72"
+   viewBox="0 0 66.128281 72"
+   version="1.1"
+   id="svg10"
+   sodipodi:docname="latam.svg"
+   style="fill:none"
+   inkscape:version="0.92.4 5da689c313, 2019-01-14">
+  <metadata
+     id="metadata16">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs14" />
+  <sodipodi:namedview
+     pagecolor="#7e0000"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="2510"
+     inkscape:window-height="1385"
+     id="namedview12"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="2.97995"
+     inkscape:cx="30.142562"
+     inkscape:cy="-13.686851"
+     inkscape:window-x="50"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg10" />
+  <g
+     id="g827"
+     transform="matrix(13.658367,0,0,13.658367,-12.694738,-12.694736)">
+    <path
+       id="path2"
+       stroke-miterlimit="10"
+       d="M 3.39641,5.70049 5.70049,3.36472 3.41157,1 2.13688,2.28984 1,3.30133 Z"
+       inkscape:connector-curvature="0"
+       style="stroke:#ffffff;stroke-width:0.141111;stroke-linejoin:round;stroke-miterlimit:10" />
+    <path
+       id="path4"
+       stroke-miterlimit="10"
+       d="m 2.13684,2.28979 2.28892,2.3661"
+       inkscape:connector-curvature="0"
+       style="stroke:#ffffff;stroke-width:0.141111;stroke-linejoin:round;stroke-miterlimit:10" />
+    <path
+       id="path6"
+       stroke-miterlimit="10"
+       d="M 3.44324,3.64028 4.66005,2.28979"
+       inkscape:connector-curvature="0"
+       style="stroke:#ffffff;stroke-width:0.141111;stroke-linejoin:round;stroke-miterlimit:10" />
+    <path
+       id="path8"
+       stroke-miterlimit="10"
+       d="M 1,3.30127 3.44326,6.13039 5.70049,3.36603"
+       inkscape:connector-curvature="0"
+       style="stroke:#ffffff;stroke-width:0.141111;stroke-linejoin:round;stroke-miterlimit:10" />
+  </g>
+</svg>
