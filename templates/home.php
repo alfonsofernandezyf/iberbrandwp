@@ -53,7 +53,11 @@ button.navbar-toggler.navbar-toggler-right.menu-button {
 
 
 .menu-trigger i {
+<<<<<<< HEAD
     background: url(<?php echo get_template_directory_uri(); ?>/img/navbar-toggler.svg);
+=======
+    background: url(wp-content/themes/iberbrandwp/img/navbar-toggler.svg);
+>>>>>>> 4bbbbd137f4d129d8f7c470258806c1afb83998d
     background-repeat: round;
     /* position: relative; */
     /* top: 70px; */
