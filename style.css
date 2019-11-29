@@ -513,6 +513,12 @@ pre {
   margin-right: auto;
   margin-left: auto; }
 
+  .full-width{
+    margin:0;
+    padding:0;
+    min-width: 100vw;
+  }
+
 .row {
   display: -webkit-box;
   display: -ms-flexbox;

@@ -8,16 +8,13 @@
  */
 
 if ( ! is_active_sidebar( 'sidebar-1' ) ) { ?>
-		</div><!--  .row -->
-	</div><!--  .container -->
+
 <?php } ?>
 
-		<aside id="secondary" class="widget-area" role="complementary">
+		<div id="sidebar" class="widget-area" role="complementary">
 			<?php dynamic_sidebar( 'sidebar-1' ); ?>
-		</aside><!-- #secondary -->
+		</div><!-- #secondary -->
 
-	</div><!--  .row -->
-</div><!--  .container -->
 
 
 

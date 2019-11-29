@@ -16,9 +16,8 @@
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="container">
 			<div class="site-info">
-				&copy; <?php bloginfo( 'name' );
-						echo ' - ';
-						echo date("Y"); ?>
+				<span>&copy; <?php echo date("Y"); ?> IBERBRAND<sup>®</sup>All Rights Reserved | <a href="<?php get_the_privacy_policy_link(); ?>">Pirvacy policy</a> </span>
+				<span>CREATIVE AND INIOVATIVE LIKE OUR CLIENTS <sup>®</sup></span>
 			</div><!-- .site-info -->
 		</div><!--  .container -->
 	</footer><!-- #colophon -->

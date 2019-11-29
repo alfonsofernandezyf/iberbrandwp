@@ -28,7 +28,9 @@ main#main {
 }
 
 
-.dropdown-menu .dropdown-item {background:#4646468c;}
+.dropdown-menu .dropdown-item {
+    background: #0000009c;
+}
 
 
 .menu-trigger i {
@@ -52,7 +54,7 @@ main#main {
 
 .partner-picture {
   box-shadow: inset 0 0 0 100vw rgba(0,0,0,0.2);
-  background: var(--image-url) top;
+  background: var(--image-url); background-position: 0 35%;;
   display:flex;
   min-height: 512px;
   background-size: cover;
@@ -68,6 +70,7 @@ main#main {
 .partner-picture:hover {
 	box-shadow: inset 0 0 0 100vw rgba(0,0,0,0.1);
 }
+
 
 .container.partners-title-mobile {
     color: #a22035;

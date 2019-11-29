@@ -18,6 +18,7 @@ get_header('home'); ?>
 
 
 
+
 button.navbar-toggler.navbar-toggler-right.menu-button {
     float: right;
 }
@@ -40,12 +41,11 @@ button.navbar-toggler.navbar-toggler-right.menu-button {
 }
 
 .site-content {
-/*    top: -27px; */
+    top: initial; 
 }
 
 .navbar {
-	/* border-bottom: solid 1px #0000002e; */
-	
+	border-bottom: solid 1px #ffffff2e; 
 }
 
 
@@ -63,6 +63,7 @@ button.navbar-toggler.navbar-toggler-right.menu-button {
     display: grid;
     grid-auto-flow: column;
     max-width: 550px;
+	
 }
 
 .menu-trigger {
@@ -82,6 +83,13 @@ button.navbar-toggler.navbar-toggler-right.menu-button {
 	
 	grid-template-columns: 1fr auto;
 	}
+
+.site-footer {
+	position: relative;
+	top: -110px;
+}
+
+
 
 
 	
@@ -103,20 +111,26 @@ button.navbar-toggler.navbar-toggler-right.menu-button {
 	}
 
 	.services-slide-grid {
-		grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
+    align-items: flex-start;
+    grid-gap: 3em;
+	}
+	.services-carrousel-control {
+    float: left;
+	}
 
+	.carousel-item {
+		min-height:75vh;
+	}
 }
 
-
-}
-
-@media screen and (min-width: 992px) and (max-width: 2584px) {
+@media screen and (min-width: 992px){
 	.site-content {
 		position:relative; 
-		top: -27px;
+		top: -27px !important;
 	}
 	.navbar-toggler{
-		display: none;
+		display: none !important;
 	}
 		
 	.navbar {
@@ -171,9 +185,6 @@ b c';
 
 
 <div class="home-hero">
-
-
-
 	<div class="container">
 		<button 			
 			class="navbar-toggler navbar-toggler-right menu-button" 
@@ -183,25 +194,20 @@ b c';
 			aria-label="Toggle navigation">
 			<span class="menu-trigger"><i class="material-icons">bar_chart</i></span>
 		</button>  
+		<?php
+			while ( have_posts() ) : the_post();
 
-		<h2><b>CREATIVE</b> AND <br/> <b>INNOVATIVE</b>, LIKE <br/> OUR <b>CLIENTS.<sup>®</sup></b></h2>
-		
-		<div class="home-paragraph">
-		<div>
-		<p>
-		IBERBRAND ® is a specialized in tellectual property firm that combines a remarkable background and experience with a fresh approach to the IP law practice in Mexico and Latin America, dealing with both Industrial and Intellectu al property matters.<br/>
-		</p>
-		<p>
-		Based in Mexico City, we provide strategic advice for protecting, maintaining and enforcing your IP Rights in Mexico, Latin America and the Caribbean.
-		</p>
-		<p>
-		We are specialists in advising how to register a trademark. Our experience will help you to successfully register your trademark, obtain	your patent or copyright in Mexico, Latin America and the Caribbean as well.<br/>
-		</p>
-</div>
-		</div>
+				get_template_part( 'template-parts/content', 'home' );
 
+				// If comments are open or we have at least one comment, load up the comment template.
+				if ( comments_open() || get_comments_number() ) :
+					comments_template();
+				endif;
 
+			endwhile; // End of the loop.
+		?>
 	</div>
+
 </div>
  
 
